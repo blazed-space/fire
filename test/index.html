@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Blazed Fire Test</title>
+        <link rel="stylesheet" href="https://blazed.sbs/assets/css/blz.css" />
+    </head>
+    <body>
+        <blz-app>
+            <!-- BLZ-APP Component -->
+            <header>
+                <nav>
+                    <a href="https://blazed.space/">Home</a>
+                    <a href="https://blazed.space/about">About</a>
+                    <a href="https://blazed.space/contact">Contact</a>
+                </nav>
+            </header>
+            <main>
+                <div>
+                    <!-- Main content body -->
+                </div>
+            </main>
+            <footer>
+                <div>
+                    <!-- Page footer (copyright, backlinks, etc) -->
+                </div>
+            </footer>
+        </blz-app>
+        <section id="blz-js">
+            <script type="module">
+                import { BlazedApp } from 'https://blazed.sbs/assets/js/blz.module.js';
+                if((typeof BlazedApp) === 'function'){ window.customElements.define('blz-app', BlazedApp); }
+            </script>
+            <script>
+                // BlazedApp Object
+                var app = document.getElementsByTagName('blz-app');
+                if(app.length === 0){
+                    //console.log('No <blz-app> component.');
+                } else if(app.length === 1){
+                    //console.log('Single <blz-app> component mode.');
+                } else {
+                    //console.log('Multi <blz-app> component mode.');
+                }
+                
+            </script>
+            <noscript>
+                <div>
+                    <p>For the best browsing experience, please enable JavaScript.</p>
+                    <p><a href="https://www.enable-javascript.com/" target="_blank">Learn more</a>.</p>
+                </div>
+            </noscript>
+        </section>
+    </body>
+</html>
