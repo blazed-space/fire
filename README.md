@@ -1,33 +1,21 @@
-# fire
-Blazed Fire javascript framework.
+# Fire for HTML5/JS
 
-## What is it?
-Currently, fire is simply a custom component (usually &gt;blz-app&lt;) with an open inner shadow DOM.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aab79398-3282-4561-82ca-e1c9b92b1648/deploy-status)](https://app.netlify.com/sites/fire-core/deploys)
 
-## How to install
-To include this in your application, simply add the following to the body of your document:
+Fire core CSS, HTML, and JS framework/boilerplate.
 
-```html
-<script type="module">
-    import { BlazedApp } from 'https://blazed.sbs/assets/js/blz.module.js';
-    if((typeof BlazedApp) === 'function'){ window.customElements.define('blz-app', BlazedApp); }
-</script>
-```
+- [Visit Website](https://blazed.space/)
 
-And create a Blazed Fire app like so:
+# Credits
+![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire?style=for-the-badge "Last Commit")
 
-```html
-<blz-app>
-    <header>
-        <nav>
-            ...
-        </nav>
-    </header>
-    <main>
-        ...
-    </main>
-    <footer>
-        &copy;...
-    </footer>
-</blz-app>
-```
+## Development Team
+- Maintained by: [The Blazed Development Group](https://www.facebook.com/groups/blzdev)
+- Published by: [Blazed Publishing](https://blazed.xyz/)
+- Lead Developer, Project Management: [Tyler Ruff](https://github.com/tyler-ruff)
+- UX Testing, Project Advising: Star Dom
+- Design, Project Advising: [Matthew Ruff](https://github.com/matt-ruff)
+
+## Special Thanks
+- [TailwindCSS](https://tailwindcss.com/)
+- [Netlify](https://netlify.com/)
