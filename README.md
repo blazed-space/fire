@@ -4,7 +4,7 @@
 
 Fire core CSS, HTML, and JS framework/boilerplate.
 
-- [Visit Website](https://blazed.space/)
+- [Visit Website](https://fire-core.netlify.app/)
 
 # Credits
 ![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire?style=for-the-badge "Last Commit")
