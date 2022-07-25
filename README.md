@@ -6,6 +6,13 @@ Fire core CSS, HTML, and JS framework/boilerplate.
 
 - [Visit Website](https://fire-core.netlify.app/)
 
+## Features
+- HTML5 Boilerplate
+- TailwindCSS
+- IE 9 Support
+- Mobile Burger Menu
+- stop-blink and custom-scrollbar
+
 # Credits
 ![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire?style=for-the-badge "Last Commit")
 
