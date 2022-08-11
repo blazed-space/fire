@@ -236,7 +236,7 @@ function build_footer(config, document){
     logoInnerWrapper.appendChild(copyright);
     footer.appendChild(innerWrapper);
     blz_footer.appendChild(footer);
-    document.body.append(blz_footer);
+    document.body.appendChild(blz_footer);
     //document.querySelector('.footer').innerHTML = blz_footer.innerHTML;
 }
 
