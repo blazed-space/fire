@@ -6,6 +6,19 @@ Fire core CSS, HTML, and JS framework/boilerplate.
 
 - [Visit Website](https://fire-core.netlify.app/)
 
+## Installing
+- Installing with NPM
+Simply run:
+```sh
+    npm install blz-fire
+```
+
+- Installing with Github
+Simply run:
+```
+    git clone https://github.com/blazed-space/fire
+```
+
 ## Features
 - HTML5 Boilerplate
 - TailwindCSS
