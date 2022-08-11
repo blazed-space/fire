@@ -161,7 +161,7 @@ function build_header(config, page){
     const menu = build_menu(config, page);
     blz_header.appendChild(mobile_menu);
     blz_header.appendChild(menu);
-    document.body.appendChild(blz_header);
+    return blz_header;
 }
 
 function build_content(config, content){
@@ -173,7 +173,7 @@ function build_content(config, content){
     document.body.appendChild(main);
 }
 
-function build_footer(config, document){
+function build_footer(config){
     const blz_footer = f('blz-footer');
     const footer = f('footer');
     footer.classList.add('bg-gray-900');
@@ -237,6 +237,5 @@ function build_footer(config, document){
     footer.appendChild(innerWrapper);
     blz_footer.appendChild(footer);
     document.body.appendChild(blz_footer);
-    //document.querySelector('.footer').innerHTML = blz_footer.innerHTML;
 }
 
