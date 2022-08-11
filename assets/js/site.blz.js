@@ -161,7 +161,7 @@ function build_header(config, page){
     const menu = build_menu(config, page);
     blz_header.appendChild(mobile_menu);
     blz_header.appendChild(menu);
-    return blz_header;
+    document.body.appendChild(blz_header);
 }
 
 function build_content(config, content){
