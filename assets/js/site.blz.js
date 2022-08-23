@@ -7,6 +7,24 @@ const siteConfig = {
     theme: '000000',
     company: 'Blazed Labs LLC',
     motto: 'We turn Dreams into Reality.',
+    email: "hello@blazed.space",
+    address: "1 Woodrow Boulevard, Blazed", 
+    social: [{ 
+        name: "Twitter",
+        url: "https://twitter.com/BlazedLabs"
+    }, {
+        name: "Facebook",
+        url: "https://www.facebook.com/blazedlabs",
+    }, {
+        name: "Youtube",
+        url: "https://www.youtube.com/channel/UCUl9Q2Nq-bvju0wm3b-bohA",
+    }, {
+        name: "Instagram",
+        url: "https://www.instagram.com/blazed_labs/"
+    }, {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/company/blazed-labs/"
+    }],
     nav: [{
         text: "Home",
         url: "https://fire-core.netlify.app/"
