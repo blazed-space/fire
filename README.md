@@ -1,41 +1,45 @@
-# Fire for HTML5/JS
+# Fire
+[![Built by Blazed Labs "Built by Blazed Labs"](https://img.shields.io/badge/Built%20By-Blazed%20Labs-red?logo=data:image/webp;base64,UklGRjYBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSN8AAAABgGPb2rHnM36Vsd0ZtTMGO2WGYJuVW9t2JpDKtivr14snGEBETADzn3KCIAiiKEockLZiZHh4ZHRsfCYTSO40op+SgRifQ9SwAqUuoioYaHn2x2ZQtWDSBKoZTBxDtYAJI6hOMHkS1cNDRdygzsOBbBaN2BEDCFf0jXvPAYm+NRIe+APYrhiJu7RUXOk32WsGVdy9kXLLj8J+w0jdoRDxlUb6p3iiuAcA46YXgTJkBG1gcd5nMLvOuOBHmIdAnOsezKE7js19h3jL53CMNntkaZF8aak3RcMQiyo1z/yXAFZQOCAwAAAA0AIAnQEqIAAgAD5tJptNpCEiopQAgA2JaQAATCggAAD9s//7f+1P//sZyP/OOAAA)](https://blazedlabs.com/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aab79398-3282-4561-82ca-e1c9b92b1648/deploy-status)](https://app.netlify.com/sites/fire-core/deploys)
+Next-gen front-end tooling for blazing fast websites.
 
-Fire core CSS, HTML, and JS framework/boilerplate.
+[View Demo](https://fire-core.netlify.app/)
 
-- [Visit Website](https://fire-core.netlify.app/)
+## What is Fire?
+Fire is a framework-agnostic system for managing app state/config, managing component data and config, and coupling components with data/resolvers (called "widgets").
 
-## Installing
-- Installing with NPM
-Simply run:
-```sh
-    npm install blz-fire
+### Features
+* Configuration, state, and settings for App, Layouts, Pages, and Components.
+* Session management
+* Content management and typing
+* Widget definition & structure
+* View management
+* Framework agnostic (use with vanilla js/ts, react, vue, svelte, angular, and more)
+
+## Development
+- Clone the Repository
+- Install NPM dependencies
+```shell
+npm install
 ```
-
-- Installing with Github
-Simply run:
+- Start dev server
+```shell
+npm run dev
 ```
-    git clone https://github.com/blazed-space/fire
-```
-
-## Features
-- HTML5 Boilerplate
-- TailwindCSS
-- IE 9 Support
-- Mobile Burger Menu
-- stop-blink and custom-scrollbar
+- Navigate to http://localhost:3000
 
 # Credits
-![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire?style=for-the-badge "Last Commit")
+[![Last Commit](https://img.shields.io/github/last-commit/blazed-space/fire?style=for-the-badge "Last Commit")](https://github.com/blazed-space/fire/commits/main)
 
 ## Development Team
-- Maintained by: [The Blazed Development Group](https://www.facebook.com/groups/blzdev)
+- Maintained by: [Blazed Labs LLC](https://blazedlabs.com/) ([Facebook](https://www.facebook.com/groups/blzdev))
 - Published by: [Blazed Publishing](https://blazed.xyz/)
 - Lead Developer, Project Management: [Tyler Ruff](https://github.com/tyler-ruff)
 - UX Testing, Project Advising: Star Dom
 - Design, Project Advising: [Matthew Ruff](https://github.com/matt-ruff)
 
 ## Special Thanks
+[![ "Uses Vite"](https://img.shields.io/badge/Uses-Vite-blue)](https://vite.dev/)
+
 - [TailwindCSS](https://tailwindcss.com/)
 - [Netlify](https://netlify.com/)
