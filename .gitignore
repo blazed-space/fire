@@ -6,3 +6,6 @@ node_modules
 demo/dist
 
 docs/dist
+
+# Local Netlify folder
+.netlify
