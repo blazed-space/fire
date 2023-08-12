@@ -1,0 +1,15 @@
+{
+    "name": "fire-js-docs",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+      "build": "npx typedoc",
+      "dev": "cd dist && npx static-server"
+    },
+    "dependencies": {
+      "typedoc": "^0.24.8",
+      "@blazed-space/blz-typedoc-theme": "^0.0.1",
+      "typescript": "^5.0.2"
+    }
+}

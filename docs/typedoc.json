@@ -1,0 +1,18 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "name": "Fire",
+    "entryPoints": ["./../src/main.ts", "./../src/types/Site.d.ts"],
+    "out": "./dist",
+    "plugin": ["@blazed-space/blz-typedoc-theme"],
+    "theme": "my-theme",
+    "readme": "./../README.md",
+    "media": "./media",
+    "json": "./dist/media/site.json",
+    "customCss": "./media/global.css",
+    "includeVersion": true,
+    "hideGenerator": true,
+    "cleanOutputDir": true,
+    "navigationLinks": {
+        "GitHub": "https://github.com/blazed-space/fire"
+    }
+}

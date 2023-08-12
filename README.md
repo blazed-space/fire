@@ -5,6 +5,17 @@ Next-gen front-end tooling for blazing fast websites.
 
 [View Demo](https://fire-core.netlify.app/)
 
+## What is Fire?
+Fire is a framework-agnostic system for managing app state/config, managing component data and config, and coupling components with data/resolvers (called "widgets").
+
+### Features
+* Configuration, state, and settings for App, Layouts, Pages, and Components.
+* Session management
+* Content management and typing
+* Widget definition & structure
+* View management
+* Framework agnostic (use with vanilla js/ts, react, vue, svelte, angular, and more)
+
 ## Development
 - Clone the Repository
 - Install NPM dependencies
