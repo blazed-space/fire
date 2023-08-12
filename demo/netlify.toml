@@ -1,5 +1,4 @@
 [build]
-  base = "demo"
   command = "vite build"
   publish = "dist"
 
